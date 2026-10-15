@@ -1,0 +1,199 @@
+(footprint "battery_holder_aaa_right_angle_left"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 11.938 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4bd3a254-ca4b-4ce2-867b-ab1db36e0d1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 11.938 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "223d4640-729b-441a-89b1-5ac304bffc06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7622d6d1-bd59-47a7-9057-4b167ad16396")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d0b637d-5b28-421d-b797-9a57269b7c2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 19.558 -23.622)
+		(end 4.318 -21.209)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2591ed57-93c9-4337-bdae-57a7f394b381")
+	)
+	(fp_rect
+		(start 19.558 21.209)
+		(end 4.318 23.622)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "84eba123-e972-4958-a6e6-e220d1fbdab9")
+	)
+	(fp_line
+		(start 4.345 -23.962)
+		(end 4.345 -27.892)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a02f4f55-2db7-4b94-b72c-5132cc79e301")
+	)
+	(fp_line
+		(start 4.345 -23.962)
+		(end 4.345 24.257)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7726952-0d61-45af-8030-8ec05b40dbf3")
+	)
+	(fp_rect
+		(start 4.318 -25)
+		(end -7.682 25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0f1279f9-dd05-49d4-8fa2-62edaf8d9df5")
+	)
+	(fp_text user "+"
+		(at 5.838 -20.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d76f29da-8c2d-445d-bf81-48db9fbb4bd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 5.838 21.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1cc86921-92e8-4fcf-9518-917680267f77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(fp_text user "Battery Holder"
+		(at -1.682 0 90)
+		(layer "F.Fab")
+		(uuid "9fdfd60c-209f-4619-bd78-0d01df735f8a")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(fp_text user "PCB EDGE"
+		(at 4.699 -24.892 90)
+		(layer "F.Fab")
+		(uuid "a1963d21-0a4f-46af-a26e-48387d8b7db4")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 11.938 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1796d4a2-e648-48c4-85a6-86811a81b9c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 11.938 -22.4)
+		(size 14.9 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "01b3950b-db92-41fa-a64b-c4ebc7b45147")
+	)
+	(pad "2" smd roundrect
+		(at 11.938 22.4)
+		(size 14.9 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "44afd5aa-da08-4b8a-8cdc-6211f3d87b87")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_BASE_DIR}/3dmodels/misc/2466.stp"
+		(offset
+			(xyz -6.5 0.25 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 90)
+		)
+	)
+)

@@ -1,0 +1,172 @@
+(footprint "L_2.5mmx1.9mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD ")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "3b4eecb1-29a2-436b-bf02-f14b3f7f3672")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_2.5mmx1.9mm"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(uuid "26d0ae76-da96-4579-bb81-8a5c1789cf5a")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e9902b7-22df-43b4-8ffb-dd71cda44876")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cde10b1-a5eb-4055-b975-3fefcdef59f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.261252 -1)
+		(end 0.261252 -1)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37d6610e-781d-46c0-b57d-c44de06eb519")
+	)
+	(fp_line
+		(start -0.261252 1)
+		(end 0.261252 1)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edfead3c-a90f-48ce-8727-51590e25d3bd")
+	)
+	(fp_rect
+		(start -2.05 -1.6)
+		(end 2.05 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d6dc0cc5-2121-4de1-b3a4-adf7df382acc")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26dfe3e3-5258-431c-94a9-6e8cad037b5d")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4989c0b7-809b-4a94-af7c-dd8516b27d2b")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd8ee41f-af74-42e0-a335-178dbd7616f0")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ec05535-5387-416a-bc73-db0196dc3d01")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1695c1f9-7415-4c30-b189-1e3bdfe746c3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "61a2af53-618d-434d-ba71-d40358fc491d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.75 0)
+		(size 1 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b0496488-22c7-4a25-b526-e28f3ee495ef")
+	)
+	(pad "2" smd roundrect
+		(at 0.75 0)
+		(size 1 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3e9b2cbc-a261-4623-9f55-ccbf57ef2a64")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_BASE_DIR}/3dmodels/passive/L_BOURNS_SRP2010TMA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

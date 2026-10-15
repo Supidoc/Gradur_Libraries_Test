@@ -1,0 +1,195 @@
+(footprint "XT30UPB-F"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "  XT30UPB-F-3")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 -7.5 0)
+		(layer "F.SilkS")
+		(uuid "31ff0363-7cbc-4786-92dd-bc7bd0bd63c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XT30UPB-F"
+		(at 0 7.8 0)
+		(layer "F.SilkS")
+		(uuid "0f004876-af01-4c30-8d6a-164e58d8320b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70c47b37-8d28-43da-84d9-31fe7721f55c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17cd2664-935f-482f-ba04-52c658c2d921")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.6 -5.1)
+		(end -2.6 3)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41cb4931-c63c-4802-8fcc-aa97106a8be6")
+	)
+	(fp_line
+		(start -2.6 3)
+		(end -1.25 5.1)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1d2a94d-4660-4c93-a04b-97266caab9fb")
+	)
+	(fp_line
+		(start -1.25 5.1)
+		(end 1.25 5.1)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e5f2315-492a-4cb3-9648-94a344e1abb0")
+	)
+	(fp_line
+		(start 2.6 -5.1)
+		(end -2.6 -5.1)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea9fa583-86f9-408f-a9f7-62d7ace10be3")
+	)
+	(fp_line
+		(start 2.6 3)
+		(end 1.25 5.1)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4360a5c1-d7ee-451d-bdba-d6b6cee655e4")
+	)
+	(fp_line
+		(start 2.6 3)
+		(end 2.6 -5.1)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09fbcc07-9180-4bfd-b108-71fb411b3fbd")
+	)
+	(fp_line
+		(start -3 -5.5)
+		(end -3 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb7dcce8-a240-444e-9d9c-95fcfb2ffde2")
+	)
+	(fp_line
+		(start -3 5.5)
+		(end 3 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5a64259-d609-4e26-9567-0b7d16d54bea")
+	)
+	(fp_line
+		(start 3 -5.5)
+		(end -3 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e9fd1a5-3c46-4553-b064-48cabafa5260")
+	)
+	(fp_line
+		(start 3 5.5)
+		(end 3 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ab66064-0734-4a79-8722-252c09f227e7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "68f79cbd-8a9e-4d70-a3db-1f906c389927")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 -2.5)
+		(size 2.9 2.9)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32e1434c-d200-43cf-8d8b-608042e7474d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.5)
+		(size 2.9 2.9)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0dabacc-4560-472a-9186-effc74c4c25d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/connector/XT30UPB-F.stp"
+		(offset
+			(xyz 0 0 3.41)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

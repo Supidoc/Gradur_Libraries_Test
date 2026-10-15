@@ -1,0 +1,144 @@
+(footprint "L_6mmx6mmx2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD ")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "cc2282dc-8451-425a-91d8-fd7e20e4e869")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_6mmx6mmx2mm"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(uuid "0ca18266-6bd2-476e-a6bb-57a78cc3a890")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2d6a82e-e063-4136-997d-7fc4671fe52f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9c1d024-bcde-4c50-bd8f-d6c974c9a054")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.25 -3.25)
+		(end 1.25 -3.25)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ab6822d-ccb2-4c3a-a992-d88c1f4120f7")
+	)
+	(fp_line
+		(start -1.25 3.25)
+		(end 1.25 3.25)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4849acd5-04a8-406c-9b93-92ea2d02af27")
+	)
+	(fp_rect
+		(start -3.4 -3.4)
+		(end 3.4 3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "56968b22-7b71-422c-be91-2302ba89d96a")
+	)
+	(fp_rect
+		(start -3.2 -3.2)
+		(end 3.2 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d8ebe0a1-f4be-41e9-bbd7-0ba8cebcd299")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9e3e4f2b-9b8d-4dc7-b784-a387049e225d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a9e16e60-cc3b-4489-833c-d471a42b5597")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.35 0)
+		(size 1.6 5.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "16d5fcb8-e5c9-4981-861f-82117b014b8b")
+	)
+	(pad "2" smd roundrect
+		(at 2.35 0)
+		(size 1.6 5.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "bdb59722-55f6-45c2-adea-11e504c3d846")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_BASE_DIR}/3dmodels/passive/L_XND6060WH.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
